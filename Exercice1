@@ -1,0 +1,84 @@
+Si le programme ne contient pas d’erreur d’exécution
+Résultat à afficher par le programme est :
+
+Si le programme contient des erreurs
+Lignes des erreurs sont :
+ligne 13 :
+NullPointerException
+
+
+Corrections à faire :
+ligne 13 :
+point p1= new point (0,0);
+point p2= new point (0,0);
+p1.deplacer(2, 2);
+points[0]= p1 ;
+p2.deplacer(3, 3);
+points[1]=p2;
+
+
+Résultat à afficher après correction est :
+(2, 2)
+(3, 3)
+null
+
+
+
+Réponse :
+Si le programme ne contient pas d’erreur d’exécution
+Résultat à afficher par le programme est :
+
+Si le programme contient des erreurs
+Lignes des erreurs sont :
+
+ligne 12 :
+list est abstract
+ligne 13 :
+class Didi est abstract
+
+
+Corrections à faire :
+ligne 13 :
+list<Didi> list= new ArrayList();
+ligne 14 :
+public string getDetail(à {
+return super.getDetail() + "gauche-";
+}
+
+Résultat à afficher après correction est :
+droite -gauche -milieux
+
+
+
+Réponse :
+Si le programme ne contient pas d’erreur d’exécution
+Résultat à afficher par le programme est :
+
+Si le programme contient des erreurs
+Lignes des erreurs sont :
+
+ligne 17 :
+m.h();
+ligne 20 :
+ta.h();
+
+
+Corrections à faire :
+ligne 17 :
+((Ma)ta).h();
+ligne 20 :
+((Ma)ta).h();
+
+
+
+Résultat à afficher après correction est :
+
+
+Résultat à afficher après correction est :
+Traitement de f
+Traitement 2 de g:6
+je suis un traitement de h
+(8)Traitement de f
+Traitement 2 de g:6
+je suis un traitement de h
+(8)
